@@ -25,6 +25,14 @@ const Card=()=>{
   const byu = "UMER"
   return byu
  }
+ const age = 19;
+
+ const btn = ()=>{
+ if(age >= 18) return "Watch Now";
+  return "Not Available";
+ }
+//  let canwatch = "Not Available"
+//  if(age>18) canwatch = "Watch Now"
 return(
 <>
 <p>{8*8-63}</p>
@@ -32,6 +40,9 @@ return(
 <p> SUMMARY :{sumry}</p>
 <img height={"200px"} width={"300px"} w src="s-l1200.jpg" alt="" />
 <h5>BY:{by()}</h5>
+{/* <button>{age>18? "Watch Now" : "Not Available"}</button> */}
+{/* <button>{canwatch}</button> */}
+<button>{btn()}</button>
 </>
   )
 }
