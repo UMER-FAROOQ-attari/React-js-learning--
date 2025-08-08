@@ -1,6 +1,9 @@
+import React, { Fragment } from "react"
+
 export const App = () =>{
   return(
-    <>
+    <Fragment>
+    <React.Fragment>
 <Card />
 <Card />
 <Card />
@@ -10,7 +13,8 @@ export const App = () =>{
 <Card />
 <Card />
 <Card />
-</>
+</React.Fragment>
+</Fragment>
   )
 }
 const Card=()=>{
