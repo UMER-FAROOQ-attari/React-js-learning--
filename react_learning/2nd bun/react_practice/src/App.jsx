@@ -1,5 +1,20 @@
 export const App = () =>{
   return(
+    <>
+<Card />
+<Card />
+<Card />
+<Card />
+<Card />
+<Card />
+<Card />
+<Card />
+<Card />
+</>
+  )
+}
+const Card=()=>{
+  return(
 <>
 <h1> Dirilis Ertugrul Seasons 1</h1>
 <p>Diriliş: Ertuğrul Season 1 revolves around Ertuğrul Bey, leader of the Kayi tribe, as he battles the Crusaders, Mongols, and internal enemies. It highlights his leadership, honor, loyalty, and struggles to protect his people. Ertuğrul forms strategic alliances, confronts betrayal, and seeks justice while preparing for the rise of the Ottoman Empire.</p>
