@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import {Card , Footer} from './components/Card'
 import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -8,7 +9,16 @@ function App() {
 
   return (
     <>
-    
+    <Card />
+    <Footer />
+    <Card />
+    <Footer />
+    <Card />
+    <Footer />
+    <Card />
+    <Footer />
+
+
     </>  )
 }
 
